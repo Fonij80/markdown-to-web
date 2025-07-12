@@ -1,67 +1,95 @@
+❗ This guide is designed for non-technical users.
+No prior programming or technical knowledge is required.
+You can follow each step easily, even if you have never built a website before.
+
 # Markdown-to-Web
-
-<div dir="ltr">
-
-[English Version](./)
-
-</div>
 
 <div dir="rtl">
 
-## 🎯 هدف پروژه:
-- راهنمایی قدم به قدم ساخت یک سایت استاتیک با فایل Markdown
-- آموزش ساخت رزومه‌ی آنلاین
+[ورژن فارسی](./README.fa.md)
 
-## 🪜 مراحل ساخت سایت استاتیک
+</div>
 
-### قدم 1: نصب ابزارها
-قبل از شروع، شما به چند ابزار نیاز دارید:
-- **Markdown**: برای نوشتن محتوا با فرمت ساده.
-- **GitHub**: برای ذخیره و میزبانی پروژه.
-- **Text Editor**: برای نوشتن کد (مثل Visual Studio Code).
+<div dir="ltr">
 
-### قدم 2: نوشتن رزومه با Markdown
-Markdown یک زبان ساده است که به شما این امکان رو می‌ده که متن رو با فرمت‌های مختلف بنویسید. در این مرحله، یک فایل `.md` ایجاد کنید و اطلاعات رزومه‌تون رو داخلش بنویسید.
+## 🎯 Project Goal:
 
-#### مثال:
+- Step-by-step guide to building a static site with Markdown files
+- Online resume creation tutorial
+
+## ⚒️ Requirements:
+
+- Github Account (Create one in this link: https://github.com/signup)
+
+## 🪜 Building Static Website Steps
+
+### Step 1: Install Tools
+
+Before you start, you will need a few tools:
+
+    Markdown: To write content in a simple format.
+
+    GitHub: To store and host your project.
+
+    Text Editor: To write code (such as Visual Studio Code).
+
+### Step 2: Write Your Resume with Markdown
+
+Markdown is a simple language that lets you write text in various formats. In this step, create a .md file and write your resume information inside it.
+
+#### Example:
+
 ```markdown
-# رزومه من
+# My Resume
 
-## اطلاعات شخصی
-- **نام**: Foroozan
-- **تخصص**: Developer | AI Enthusiast | Business Woman
+## Personal Information
 
-## مهارت‌ها
+- **Name**: Foroozan
+- **Specialty**: Developer | AI Enthusiast | Business Woman
+
+## Skills
+
 - Django
 - React
 - Web Development
 ```
-### قدم ۳: ایجاد ریپوزیتوری GitHub
-به GitHub بروید و یک ریپوزیتوری جدید بسازید.
 
-فایل Markdown که نوشته‌اید رو داخل ریپوزیتوری خود آپلود کنید.
+### Step 3: Create a GitHub Repository
 
-### قدم ۴: فعال کردن GitHub Pages
-برای نمایش سایت خود به صورت آنلاین، از GitHub Pages استفاده کنید:
+Go to GitHub and create a new repository.
 
-- به صفحه ریپوزیتوری خود بروید.
-- به بخش Settings بروید.
-- به قسمت GitHub Pages بروید و بخش Source را روی main branch تنظیم کنید.
-- حالا URL سایت شما به صورت https://username.github.io/repository-name در دسترس خواهد بود.
+Upload the Markdown file you wrote to your repository.
 
-### قدم ۵: نمایش سایت استاتیک خود
-بعد از تنظیمات بالا، شما می‌توانید رزومه‌تون رو به صورت آنلاین مشاهده کنید. این سایت بدون نیاز به هیچ سرور پیچیده‌ای راه‌اندازی شده و فقط از فایل‌های استاتیک برای نمایش محتوا استفاده می‌کند.
+### Step 4: Enable GitHub Pages
 
-### قدم ۶: شخصی‌سازی بیشتر
-شما می‌توانید این سایت رو بیشتر شخصی‌سازی کنید:
+To display your site online, use GitHub Pages:
 
-- با استفاده از CSS، ظاهر سایت خود را تغییر دهید.
-- به HTML اضافه کنید تا بخش‌های بیشتری به رزومه خود اضافه کنید.
-- از GitHub Actions برای انتشار خودکار تغییرات استفاده کنید.
+    Go to your repository page.
 
-### نتیجه‌گیری
-با استفاده از این روش، شما می‌توانید خیلی سریع یک رزومه آنلاین ساده و استاتیک بسازید که به راحتی در اینترنت منتشر بشه. این پروژه به شما کمک می‌کنه تا به طور هم‌زمان هم یاد بگیرید و هم یک نمونه پروژه‌ی عملی برای خودتون داشته باشید.
+    Go to the Settings section.
 
-## ✍️ چجوری یه سایت شخصی واسه رزومه‌ات بسازی؟
+    Go to the GitHub Pages section and set the Source to the main branch.
+
+    Now your site will be available at: https://username.github.io/repository-name
+
+### Step 5: View Your Static Website
+
+After the above settings, you can view your resume online. This site is set up without any complex servers and uses only static files to display content.
+
+### Step 6: Further Personalization
+
+You can further personalize this site:
+
+    Use CSS to change the appearance of your site.
+
+    Add HTML to include more sections in your resume.
+
+    Use GitHub Actions to automatically publish changes.
+
+### Conclusion
+
+Using this method, you can quickly create a simple and static online resume that is easily published on the internet. This project helps you learn while also building a practical sample project for yourself.
+
+## ✍️ How to Build a Personal Website for Your Resume?
 
 </div>
