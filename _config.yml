@@ -1,0 +1,35 @@
+title: markdown-to-web
+description: "A project to create static websites using markdown files and GitHub Pages"
+baseurl: ""
+url: "https://fonij80.github.io/markdown-to-web"
+theme: jekyll-theme-cayman
+
+# Multilingual Setup
+langs:
+  en: "English"
+  fa: "فارسی"
+
+# Enabling the multilingual plugin
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# English Settings
+en:
+  language: "en"
+  permalink: "/:title/"
+  exclude:
+    - README.fa.md
+    - resume-templates/fa/
+
+# Farsi Settings
+fa:
+  language: "fa"
+  permalink: "/fa/:title/"
+  exclude:
+    - README.md
+    - resume-templates/en/
+
+# Other Jekyll Settings
+markdown: kramdown
+kramdown:
+  input: GFM
