@@ -1,3 +1,8 @@
+<!-- Don't change this section -->
+<link rel="stylesheet" href="/styles.css">
+
+<!-- Your Resume Information -->
+
 # Full Name
 
 ## Contact Information
