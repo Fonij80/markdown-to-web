@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 ❗ This guide is designed for non-technical users.
 No prior programming or technical knowledge is required.
 You can follow each step easily, even if you have never built a website before.

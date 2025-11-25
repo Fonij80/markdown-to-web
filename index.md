@@ -8,11 +8,11 @@ This project includes several **resume templates** in markdown format. You can u
 
 ### Templates Available:
 
-- [Basic Resume](./resume-templates/Basic//basic.md)
-- [Creative Resume](./resume-templates/Creative//creative.md)
-- [Modern Resume](./resume-templates/Modern//modern.md)
-- [Professional Resume](./resume-templates/Professional//professional.md)
-- [Minimalist Resume](./resume-templates/Minimalist//minimalist.md)
+- [Basic Resume](./resume-templates/Basic/basic.md)
+- [Creative Resume](./resume-templates/Creative/creative.md)
+- [Modern Resume](./resume-templates/Modern/modern.md)
+- [Professional Resume](./resume-templates/Professional/professional.md)
+- [Minimalist Resume](./resume-templates/Minimalist/minimalist.md)
 
 ### Instructions:
 
@@ -38,11 +38,11 @@ You can also refer to the English or Farsi README files for detailed steps:
 
 ### قالب‌های موجود:
 
-- [رزومه پایه](./resume-templates/Basic//basic.md)
-- [رزومه خلاقانه](./resume-templates/Creative//creative.md)
-- [رزومه مدرن](./resume-templates/Modern//modern.md)
-- [رزومه حرفه‌ای](./resume-templates/Professional//professional.md)
-- [رزومه مینیمالیستی](./resume-templates/Minimalist//minimalist.md)
+- [رزومه پایه](./resume-templates/Basic/basic.md)
+- [رزومه خلاقانه](./resume-templates/Creative/creative.md)
+- [رزومه مدرن](./resume-templates/Modern/modern.md)
+- [رزومه حرفه‌ای](./resume-templates/Professional/professional.md)
+- [رزومه مینیمالیستی](./resume-templates/Minimalist/minimalist.md)
 
 ### دستورالعمل‌ها:
 

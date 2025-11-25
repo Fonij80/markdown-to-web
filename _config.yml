@@ -5,29 +5,22 @@ url: "https://fonij80.github.io/markdown-to-web"
 theme: jekyll-theme-cayman
 
 # Multilingual Setup
-langs:
-  en: "English"
-  fa: "فارسی"
+languages: ["en", "fa"] # Use 'languages' key as expected by the plugin
+default_lang: "en"
 
-# Enabling the multilingual plugin
+# Plugins
 plugins:
   - jekyll-multiple-languages-plugin
 
-# English Settings
-en:
-  language: "en"
-  permalink: "/:title/"
-  exclude:
-    - README.fa.md
-    - resume-templates/fa/
+# Exclude files/folders from localization (optional, to avoid duplication)
+exclude_from_localizations:
+  - "README.fa.md"
+  - "resume-templates/fa/"
+  - "README.md"
+  - "resume-templates/en/"
 
-# Farsi Settings
-fa:
-  language: "fa"
-  permalink: "/fa/:title/"
-  exclude:
-    - README.md
-    - resume-templates/en/
+# Permalinks and language-specific settings can be handled via folder structure and front matter,
+# so no need to specify 'en:' and 'fa:' keys here unless you have custom config per language.
 
 # Other Jekyll Settings
 markdown: kramdown
